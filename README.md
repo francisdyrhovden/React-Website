@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ### https://francisdyrhovden.netlify.com
 
 ##
