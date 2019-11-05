@@ -1,8 +1,6 @@
 ### https://francisdyrhovden.netlify.com
 
 ##
-
->>>>>>> 9ff5241fec804bd5cfbb481454f496d2d2b8346f
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
