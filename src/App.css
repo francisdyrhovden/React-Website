@@ -112,3 +112,9 @@
     font-size: 20px;
     padding: 30px;
 }
+
+.resume-right-col {
+    background: rgb(42, 42, 44);
+    color: white;
+    padding: 2em;
+}
