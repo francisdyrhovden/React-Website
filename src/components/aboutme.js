@@ -7,25 +7,23 @@ class About extends Component {
         return (
             <div>
                 <Grid>
-                    <Cell className="aboutme-top" col={12}>
-                        <div style={{ textAlign: 'center' }}>
+                    <Cell className="aboutme" col={12}>
+                        <div>
                             <img src={Pic}
                                 alt="avatar"
                                 style={{ height: '300px' }}
                             />
                         </div>
-                        <h2 style={{ paddingTop: '1em', paddingBottom: '1 em', textAlign: 'center' }}>Francis Soliman Dyrhovden</h2>
-                        <h3 style={{ color: 'grey', textAlign: 'center' }}>Om meg</h3>
-                        <hr style={{ borderTop: '3px solid #367588', width: '90%' }} />
+                        <h2 style={{ paddingTop: '1em', paddingBottom: '1em' }}>Francis Soliman Dyrhovden</h2>
+                        <hr style={{ borderTop: '3px solid #367588', width: '90%', margin: 'auto' }} />
                     </Cell>
 
-                    <Cell className="aboutme-bottom" col={12}>
+                    <Cell className="aboutme" col={9} style={{margin: 'auto'}}>
+                        <h3 style={{ color: 'grey', paddingTop: '0px', paddingBottom: '1em'}}>Om meg</h3>
                         <h5>
-                            Mitt navn er Francis Soliman Dyrhovden, og jeg studerer 2. året i en bachelor i Dataingeniør ved Høgskulen på Vestlandet. 
+                            Mitt navn er Francis Soliman Dyrhovden, og jeg studerer 2. året i en bachelor i Dataingeniør ved Høgskulen på Vestlandet.
+                            Jeg er 24 år gammel, og har fagbrev som havbunnsinstallatør. På fritiden liker jeg å filme og ta bilder, være med venner, og drive på med egne prosjekter.
                         </h5>
-
-                        <hr style={{ borderTop: '3px solid white' }} />
-
                     </Cell>
                 </Grid>
             </div>
