@@ -31,6 +31,13 @@ class Contact extends Component {
                                         facebook.com/franciissoliman
                                     </ListItemContent>
                                 </ListItem>
+                                <ListItem>
+                                    <ListItemContent style={{fontSize: '30px', color: 'white'}}>
+                                        
+                                        <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                                        linkedin.com/in/francisdyrhovden
+                                    </ListItemContent>
+                                </ListItem>
                             </List>
                         </div>
                     </Cell>

@@ -18,7 +18,7 @@ class Landing extends Component {
 
                             <hr/>
 
-                            <p>Student ∙ Seller ∙ Developer ∙ Videographer</p>
+                            <p>Student ∙ Selger ∙ Utvikler ∙ Fotograf</p>
                             
                             <div className="social-links">
                                 {/* Linked In */}
