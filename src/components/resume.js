@@ -34,7 +34,7 @@ class Resume extends Component {
                         <h2>Utdanning</h2>
 
                         <Education
-                            startYear={2017}
+                            startYear={2018}
                             endYear="d.d"
                             schoolName="Høgskulen på Vestlandet"
                             schoolDescription="Dataingeniør"
