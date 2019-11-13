@@ -18,6 +18,9 @@ class Projects extends Component {
                     <CardText>A web application to keep track of relevant information for me, such as player stats and store items, using a Fortnite API </CardText>
                     <CardActions border>
                     <div style={{textAlign: "center"}}>
+                    <a href="https://fortnite-app.netlify.com/" rel="noopener noreferrer" target="_blank">
+                        <Button colored>Live Demo</Button>
+                    </a> 
                     <a href="https://github.com/francisdyrhovden/React-fortnite-app" rel="noopener noreferrer" target="_blank">
                         <Button colored>GitHub</Button>
                     </a> 
