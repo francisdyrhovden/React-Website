@@ -12,6 +12,38 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://wallpaperaccess.com/full/82563.png) center / cover'}}>
+                        Fortnite app
+                    </CardTitle>
+                    <CardText>A web application to keep track of relevant information for me, such as player stats and store items, using a Fortnite API </CardText>
+                    <CardActions border>
+                    <div style={{textAlign: "center"}}>
+                    <a href="https://github.com/francisdyrhovden/React-fortnite-app" rel="noopener noreferrer" target="_blank">
+                        <Button colored>GitHub</Button>
+                    </a> 
+                    </div>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.webdesignerdepot.com/cdn-origin/uploads/2015/05/featured_animation.png) center / cover'}}>
+                        This website
+                    </CardTitle>
+                    <CardText>The web application you are currently on, where I focus on architecture, design, and exploring new things.</CardText>
+                    <CardActions border>
+                    <div style={{textAlign: "center"}}>
+                    <a href="https://github.com/francisdyrhovden/tictactoe" rel="noopener noreferrer" target="_blank">
+                        <Button colored>GitHub</Button>
+                    </a>   
+                    </div> 
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.govloop.com/wp-content/uploads/2015/04/HiRes-1024x768.jpg) center / cover'}}>
                         To-do List
                     </CardTitle>
@@ -32,22 +64,6 @@ class Projects extends Component {
                         Tic Tac Toe
                     </CardTitle>
                     <CardText>A simple tic tac toe game which is able to track the history of the game. From a official React tutorial.</CardText>
-                    <CardActions border>
-                    <div style={{textAlign: "center"}}>
-                    <a href="https://github.com/francisdyrhovden/tictactoe" rel="noopener noreferrer" target="_blank">
-                        <Button colored>GitHub</Button>
-                    </a>   
-                    </div> 
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share"/>
-                    </CardMenu>
-                </Card>
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.webdesignerdepot.com/cdn-origin/uploads/2015/05/featured_animation.png) center / cover'}}>
-                        This website
-                    </CardTitle>
-                    <CardText>The web application you are currently on, where I focus on architecture, design, and exploring new things.</CardText>
                     <CardActions border>
                     <div style={{textAlign: "center"}}>
                     <a href="https://github.com/francisdyrhovden/tictactoe" rel="noopener noreferrer" target="_blank">
@@ -90,7 +106,7 @@ class Projects extends Component {
             <div style={{padding: "1em"}}>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>React</Tab>
-                    <Tab>Javascript</Tab>
+                    <Tab>Other</Tab>
                 </Tabs>
                     <Grid>
                         <Cell col={12}>
