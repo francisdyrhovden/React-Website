@@ -26,9 +26,12 @@
 }
 
 .projects-grid {
-    display: flex;
     padding: 2em;
+    margin: 0 auto;
+}
 
+.card-space {
+    padding: 1em;
 }
 
 .avatar-img {
