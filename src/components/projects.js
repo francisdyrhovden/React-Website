@@ -35,9 +35,27 @@ class Projects extends Component {
                     <div className="card-space">
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.webdesignerdepot.com/cdn-origin/uploads/2015/05/featured_animation.png) center / cover' }}>
-                                This website
+                                Portfolio website
                     </CardTitle>
                             <CardText>The web application you are currently on, where I focus on architecture, design, and exploring new things.</CardText>
+                            <CardActions border>
+                                <div style={{ textAlign: "center" }}>
+                                    <a href="https://github.com/francisdyrhovden/tictactoe" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>GitHub</Button>
+                                    </a>
+                                </div>
+                            </CardActions>
+                            <CardMenu style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+                    </div>
+                    <div className="card-space">
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://ak0.picdn.net/shutterstock/videos/1017545170/thumb/12.jpg) center / cover' }}>
+                                Tic Tac Toe
+                    </CardTitle>
+                            <CardText>A simple tic tac toe game which is able to track the history of the game. From a official React tutorial.</CardText>
                             <CardActions border>
                                 <div style={{ textAlign: "center" }}>
                                     <a href="https://github.com/francisdyrhovden/tictactoe" rel="noopener noreferrer" target="_blank">
@@ -59,24 +77,6 @@ class Projects extends Component {
                             <CardActions border>
                                 <div style={{ textAlign: "center" }}>
                                     <a href="https://github.com/francisdyrhovden/react-todoapp" rel="noopener noreferrer" target="_blank">
-                                        <Button colored>GitHub</Button>
-                                    </a>
-                                </div>
-                            </CardActions>
-                            <CardMenu style={{ color: '#fff' }}>
-                                <IconButton name="share" />
-                            </CardMenu>
-                        </Card>
-                    </div>
-                    <div className="card-space">
-                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://ak0.picdn.net/shutterstock/videos/1017545170/thumb/12.jpg) center / cover' }}>
-                                Tic Tac Toe
-                    </CardTitle>
-                            <CardText>A simple tic tac toe game which is able to track the history of the game. From a official React tutorial.</CardText>
-                            <CardActions border>
-                                <div style={{ textAlign: "center" }}>
-                                    <a href="https://github.com/francisdyrhovden/tictactoe" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub</Button>
                                     </a>
                                 </div>
