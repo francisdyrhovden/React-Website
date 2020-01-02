@@ -92,6 +92,24 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://storage.googleapis.com/storage.algo.money/2019/03/6ec84e67-flutter_logo_10.png) center / cover' }}>
+                            Wordpair Generator
+                    </CardTitle>
+                        <CardText>A simple mobile application to get to know Flutter and Dart</CardText>
+                        <CardActions border>
+                            <div style={{ textAlign: "center" }}>
+                                <a href="https://github.com/francisdyrhovden/Flutter-random-wordpairs" rel="noopener noreferrer" target="_blank">
+                                    <Button colored>GitHub</Button>
+                                </a>
+                            </div>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                </div>
+                <div className="projects-grid">
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.bleepstatic.com/content/hl-images/2017/03/09/JavaScript.jpg) center / cover' }}>
                             School project
                     </CardTitle>
