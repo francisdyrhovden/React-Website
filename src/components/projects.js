@@ -93,7 +93,7 @@ class Projects extends Component {
                 <div className="projects-grid">
                     <div className="card-space">
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://storage.googleapis.com/storage.algo.money/2019/03/6ec84e67-flutter_logo_10.png) center / cover' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/800/0*L-awYitNWdmmXf7P.png) center / cover' }}>
                                 Wordpair Generator
                     </CardTitle>
                             <CardText>A simple mobile application to get to know Flutter and Dart</CardText>
