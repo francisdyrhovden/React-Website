@@ -134,4 +134,10 @@
     color: black;
     padding: 2em;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme h5 {
+    line-height: 30px;   /* within paragraph */
 }

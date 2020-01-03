@@ -5,9 +5,12 @@ import Pic from '../circle-cropped.png';
 class About extends Component {
     render() {
         return (
-            <div>
+            <div className="aboutme">
                 <Grid>
-                    <Cell className="aboutme" col={12}>
+                    {/* spacing */}
+                    <Cell col={2}></Cell>
+                    
+                    <Cell col={8} style={{ margin: 'auto' }}>
                         <div>
                             <img src={Pic}
                                 alt="avatar"
@@ -18,8 +21,11 @@ class About extends Component {
                         <hr style={{ borderTop: '3px solid #367588', width: '90%', margin: 'auto' }} />
                     </Cell>
 
-                    <Cell className="aboutme" col={9} style={{margin: 'auto'}}>
-                        <h3 style={{ color: 'grey', paddingTop: '0px', paddingBottom: '1em'}}>Om meg</h3>
+                    {/* spacing */}
+                    <Cell col={2}></Cell>
+
+                    <Cell col={7} style={{ margin: 'auto' }}>
+                        <h3 style={{ color: 'grey', paddingTop: '0px', paddingBottom: '1em' }}>Om meg</h3>
                         <h5>
                             Mitt navn er Francis Soliman Dyrhovden, og jeg studerer 2. året i en bachelor i Dataingeniør ved Høgskulen på Vestlandet.
                             Jeg er 24 år gammel, og har fagbrev som havbunnsinstallatør. På fritiden liker jeg å filme og ta bilder, være med venner, og drive på med egne prosjekter.
