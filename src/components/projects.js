@@ -13,6 +13,27 @@ class Projects extends Component {
                 <div className="projects-grid">
                     <div className="card-space">
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://www.cultjer.com/img/ug_photo/2016_09/76248820160921034356.jpg) center / cover' }}>
+                                Movie Roulette
+                    </CardTitle>
+                            <CardText>A web application which picks a random movie using themoviedb´s API </CardText>
+                            <CardActions border>
+                                <div style={{ textAlign: "center" }}>
+                                <a href="https://movieroll.netlify.com/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Demo</Button>
+                                    </a>
+                                    <a href="https://github.com/francisdyrhovden/React-movie-roulette" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>GitHub</Button>
+                                    </a>
+                                </div>
+                            </CardActions>
+                            <CardMenu style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+                    </div>
+                    <div className="card-space">
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://wallpaperaccess.com/full/82563.png) center / cover' }}>
                                 Fortnite app
                     </CardTitle>
