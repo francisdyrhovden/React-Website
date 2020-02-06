@@ -75,8 +75,14 @@ class Resume extends Component {
                         <h2>Arbeidserfaring</h2>
 
                         <Experience
-                            startYear={2019}
+                            startYear={2020}
                             endYear="d.d"
+                            workName="Bouvet ASA"
+                            workDescription="Konsulent"
+                        />
+                        <Experience
+                            startYear={2019}
+                            endYear={2019}
                             workName="Høgskulen på Vestlandet"
                             workDescription="Hjelpelærer"
                         />
