@@ -27,8 +27,8 @@ class About extends Component {
                     <Cell col={7} style={{ margin: 'auto' }}>
                         <h3 style={{ color: 'grey', paddingTop: '0px', paddingBottom: '1em' }}>Om meg</h3>
                         <h5>
-                            Mitt navn er Francis Soliman Dyrhovden, og jeg studerer 2. året i en bachelor i Dataingeniør ved Høgskulen på Vestlandet.
-                            Jeg er 24 år gammel, og har fagbrev som havbunnsinstallatør. På fritiden liker jeg å filme og ta bilder, være med venner, og drive på med egne prosjekter.
+                            Mitt navn er Francis Soliman Dyrhovden, og jeg studerer 3. året som Dataingeniør ved Høgskulen på Vestlandet.
+                            Jeg er 25 år gammel, og har fagbrev som havbunnsinstallatør. På fritiden liker jeg å filme og ta bilder, buldring, fly drone og drive på med egne prosjekter.
                         </h5>
                     </Cell>
                 </Grid>

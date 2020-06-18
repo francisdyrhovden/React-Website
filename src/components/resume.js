@@ -76,7 +76,7 @@ class Resume extends Component {
 
                         <Experience
                             startYear={2020}
-                            endYear="d.d"
+                            endYear={2020}
                             workName="Bouvet ASA"
                             workDescription="Konsulent"
                         />
